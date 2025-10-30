@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    student_surname = "СЕЙКО"
+    student_surname = "Seiko"
     return f"<h1>Hello from Docker! V1</h1><p>Виконав: {student_surname}</p>"
 
 if __name__ == '__main__':
