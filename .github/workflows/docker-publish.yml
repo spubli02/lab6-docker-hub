@@ -33,4 +33,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: your-dockerhub-username/lab6-docker-hub:latest
+          tags: spubli02/lab6-docker-hub:latest
